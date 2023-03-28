@@ -1,0 +1,67 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@automerge/automerge": "^2.0.2",
+    "@craco/craco": "^7.1.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.20",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "craco": "^0.0.3",
+    "craco-wasm": "^0.0.1",
+    "gun": "^0.2020.1239",
+    "konva": "^8.4.3",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.5",
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.6.1",
+    "typescript": "^4.9.5",
+    "uniqid": "^5.4.0",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.5.51"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/uniqid": "^5.3.2",
+    "@types/uuid": "^9.0.1"
+  }
+}

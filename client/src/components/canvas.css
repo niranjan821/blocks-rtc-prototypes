@@ -1,0 +1,10 @@
+.canvas-container{
+    width: 89%;
+    height: 100vh;
+}
+
+@media screen and (max-width: 760px) {
+    .canvas-container{
+        width: 80%;
+    }
+}
